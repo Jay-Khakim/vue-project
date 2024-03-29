@@ -29,10 +29,10 @@
 			<Suspense>
 				<CityList />
 				<template #fallback>
-				<!-- <CityCardSkeleton /> -->
+					<CityCardSkeleton />
 				</template>
 			</Suspense>
-    </div>
+		</div>
 	</main>
 </template>
 
@@ -40,7 +40,7 @@
 	import { ref } from "vue";
 	import axios from "axios";
 	import { useRouter } from "vue-router";
-	import CityList from "../components/CityList.vue"
+	import CityList from "../components/CityList.vue";
 
 	const router = useRouter();
 	const previewCity = searchResult => {
