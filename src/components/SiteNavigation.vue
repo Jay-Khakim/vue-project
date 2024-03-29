@@ -83,6 +83,7 @@
 
 		let query = Object.assign({}, route.query);
 		delete query.preview;
+		query.id = locaitonObj.id
 		router.replace({ query });
 	};
 
