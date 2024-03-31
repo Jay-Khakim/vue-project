@@ -1,29 +1,12 @@
-# vue-project
+# [Weather App | Vue JS](https://weather-app-vue-psi.vercel.app/)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
 
-## Recommended IDE Setup
+Weather App is a fully responsice and functional application built with Vite, Vue JS using Openweather.com APIs. It allows to forecast real time weather data, to select favorite cities and pin them in home page using localstorage.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Demo
 
-## Customize configuration
+See demo [here](https://weather-app-vue-psi.vercel.app/).
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+#### 1. Mobile version
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
